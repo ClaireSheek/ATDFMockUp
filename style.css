@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url(../ATDFest/images/Background\ V1.png);
+  background-image: url(../ATDFMockUp/images/Background\ V1.png);
   display: flex;
   justify-content: center;
   color: white;
@@ -64,6 +64,19 @@ a {
 
 img{
   margin: auto;
+}
+
+img.logo {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;  
+  align-self: flex-end;
+  z-index: 1;
 }
 
 .newsFeedContainer {
