@@ -1,0 +1,111 @@
+body {
+  background-image: url(../ATDFest/images/Background\ V1.png);
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+nav {
+  display: flex;
+  height: 3vh;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  width: 40vw;
+  bottom: 5vh;
+  background: rgba(53, 85, 189, 0.2);
+  border-radius: 25px;
+  z-index: 1;
+  -moz-box-shadow:    3px 3px 10px 15px #3555bd30;
+  -webkit-box-shadow: 3px 3px 10px 15px #3555bd30;
+  box-shadow:         3px 3px 10px 15px #3555bd30;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.mainContainer {
+  position: fixed;
+  width: 95vw;
+  height: 95vh;
+  border: 3px solid white;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-snap-type: y mandatory;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 90vw;
+  height: 90vh;
+  /* border: 3px solid hotpink; */
+  min-height: 100vh;
+  scroll-snap-align: start;
+}
+
+.logo, .intro, .bookNow {
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  margin: auto;
+}
+
+.newsFeedContainer {
+  display: flex;
+  justify-content: space-between;
+  /* border: 3px solid greenyellow; */
+  width: 85%;
+  height: 70%;
+}
+
+.feed {
+  /* border: 3px solid yellow; */
+  width: 18vw;
+}
+
+.facultyContainer {
+  display: flex;
+  /* border: 3px solid greenyellow; */
+  width: 85%;
+  height: 70%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.state {
+  /* border: 3px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100%;
+  height: 99%;
+  scroll-snap-align: start;
+}
+h1 {
+  padding: 10px;
+}
+
+.background {
+  background: rgba(53, 85, 189, 0.2);
+  border-radius: 15px;
+  -moz-box-shadow:    3px 3px 10px 10px #3555bd30;
+  -webkit-box-shadow: 3px 3px 10px 10px #3555bd30;
+  box-shadow:         3px 3px 10px 10px #3555bd30;
+}
+
+html {
+  overflow:   scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; 
+}
