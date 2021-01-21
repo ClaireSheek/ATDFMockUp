@@ -6,6 +6,9 @@
 body {
   background-image: url(../ATDFMockUp/images/Background\ V1.png);
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   display: flex;
   justify-content: center;
